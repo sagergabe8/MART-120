@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My HomePage</title>
+
+  <!-- External style sheet -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Embedded styles affecting three tags: body, ol, ul -->
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f4f9f4;
+      margin: 20px 40px;
+    }
+    ol {
+      font-size: 1.2em;
+      line-height: 1.6;
+    }
+    ul {
+      list-style-type: square;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- id selector #page-title (h1) and #main-nav (nav) come from styles.css -->
+  <h1 id="page-title">My HomePage</h1>
+
+  <nav id="main-nav">
+    <a class="site-link" href="Page2.html">Story Summary</a> |
+    <a class="site-link" href="Page3.html">Contact Me</a>
+  </nav>
+
+  <!-- Inline style #1 -->
+  <h2 class="section-heading" style="font-size: 1.6em;">My Hobbies!</h2>
+
+  <ol id="hobbies-list">
+    <li>Fishing</li>
+    <li>Rockhunting</li>
+    <li>photography</li>
+    <li>videography</li>
+  </ol>
+
+  <h2 class="section-heading">My Favorite Restaurants in Missoula!</h2>
+  <ul>
+    <li><a class="site-link" href="https://www.florabellamissoula.com/">FloraBella</a></li>
+    <li><a class="site-link" href="https://www.bigapizza.com/">BigaPizza</a></li>
+    <li><a class="site-link" href="https://www.tagliaredelicatessen.com/">Tagliare Delicatessen</a></li>
+  </ul>
+
+  <h2 class="section-heading">A Couple of My Favorite Websites!</h2>
+  <ul>
+    <li><a class="site-link" href="https://www.grizzlyhacke.com/">GrizzlyHackle</a></li>
+    <li><a class="site-link" href="https://montanatu.org/">Montana Trout Unlimited</a></li>
+  </ul>
+
+  <!-- Inline style #2 -->
+  <p style="text-align: center; color: gray; font-size: 0.9em;">Thanks for visiting my page!</p>
+
+  <!-- add a new image with a height and width -->
+
+</body>
+</html>

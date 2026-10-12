@@ -1,0 +1,59 @@
+/* ===== External style sheet: styles.css ===== */
+
+/* ---- Class selectors (each used on at least two different tags) ---- */
+.section-heading {
+  color: #2a5d3a;
+  border-bottom: 2px solid #8fbf9f;
+  padding-bottom: 4px;
+}
+
+.site-link {
+  color: #1b4f72;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.site-link:hover {
+  color: #c0392b;
+  text-decoration: underline;
+}
+
+.summary-box {
+  background-color: rgba(255, 255, 255, 0.88);
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 800px;
+}
+
+/* Page 2 background image applied with CSS */
+.story-page {
+  background-image: url("https://github.com/sagergabe8/MART-120/blob/main/Homework%206%20/images/river_runs_thru_it_small.webp?raw=true");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+/* ---- ID selectors (each page uses them on at least two different tags) ---- */
+#page-title {
+  font-family: Georgia, "Times New Roman", serif;
+  text-align: center;
+  color: #1b4f72;
+}
+
+#main-nav {
+  text-align: center;
+  padding: 10px;
+  background-color: #d6eaf8;
+  border-radius: 6px;
+  margin: 15px 0;
+}
+
+#story-intro {
+  font-style: italic;
+  font-size: 1.1em;
+}
+
+#hobbies-list {
+  color: #7d3c98;
+}
